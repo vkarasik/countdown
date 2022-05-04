@@ -6,32 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Timer</title>
-    <style>
-        .banner-wrap {
-            width: 440px;
-            height: 180px;
-            background: url("http://b2b.cd-life.by/upload/medialibrary/564/56429dba8fb147764c013d2a04fd8e88.jpg") no-repeat center center;
-            position: relative;
-        }
-
-        .clock-wrap {
-            position: absolute;
-            left: 50%;
-            top: 50%;
-            transform: translate(-50%, -50%);
-            color: #ff2222;
-            font-family: "Times New Roman";
-            font-weight: bold;
-            font-size: 60px;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <div class="banner-wrap" style="width: 440px;height: 180px;background: url('http://b2b.cd-life.by/upload/medialibrary/564/56429dba8fb147764c013d2a04fd8e88.jpg') no-repeat center center;position: relative;">
-        <div class="clock-wrap" style="position: absolute;left: 50%;top: 50%;transform: translate(-50%, -50%);color: #ff2222;font-family: 'Times New Roman';font-weight: bold;font-size: 60px;">
-            <span id="hours"></span><span>:</span><span id="minutes"></span><span>:</span><span id="seconds"></span>
+    <div class="container">
+        <div class="banner"><img src="./img/top-left.jpg" alt=""></div>
+        <div class="banner"><img src="./img/top-center.jpg" alt=""></div>
+        <div class="banner"><img src="./img/top-right.jpg" alt=""></div>
+        <div class="banner"><img src="./img/bottom-left.jpg" alt=""></div>
+        <div class="banner timer">
+            <span id="hours"></span>
+            <span>:</span>
+            <span id="minutes"></span>
+            <span>:</span>
+            <span id="seconds"></span>
         </div>
+        <div class="banner"><img src="./img/bottom-right.jpg" alt=""></div>
     </div>
     <script src="script.js"></script>
 </body>
